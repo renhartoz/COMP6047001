@@ -1,0 +1,6 @@
+BEGIN
+    INPUT width
+    INPUT length
+    COMPUTE area ← length * width
+    OUTPUT area
+END

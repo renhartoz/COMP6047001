@@ -1,0 +1,6 @@
+BEGIN
+    SET width ← 3
+    SET length ← 5
+    COMPUTE area ← length * width
+    OUTPUT area
+END
