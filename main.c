@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Name\t\t\t\t: %s\n", "Aaron Hartono");
-    printf("Favorite Programming Language\t: %s\n", "Python");
+    printf("%-30s: %s\n", "Name", "Aaron Hartono");
+    printf("%-30s: %s\n", "Favorite Programming Language", "Python");
     return 0;
 }
